@@ -1,4 +1,4 @@
-import maths_logics as logic
+from Calculation_Logic import maths_logics as logic
 
 def options():
     '''Shows Options To The User For Terminal Run'''
@@ -34,4 +34,6 @@ def options():
         except ValueError:
             print("Enter Numbers only")
             break
-options()
+
+if __name__ == "__main__":
+    options()
