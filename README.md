@@ -18,60 +18,6 @@ This repository serves as my Python learning portfolio. Each project focuses on 
 
 As I continue learning, new projects and improvements will be added regularly.
 
----
-
-## Projects
-
-### PDF Toolkit
-A command-line utility built using `pypdf`.
-
-**Features**
-- Merge multiple PDFs
-- Split PDFs into two parts
-- Count PDF pages
-- Extract text from PDFs
-- View PDF metadata
-
-**Concepts Used**
-- Functions
-- File Handling
-- Exception Handling
-- External Libraries (`pypdf`)
-
----
-
-### More Projects Coming Soon
-
-Future additions may include:
-
-- File Organizer
-- Password Manager
-- Quiz Application
-- To-Do Manager
-- Web Scraping Tools
-- API Projects
-- Flask Applications
-- Algorithm Implementations
-
----
-
-## Repository Structure
-
-```text
-Python-Projects/
-│
-├── PDF-Toolkit/
-│   ├── main.py
-│   └── README.md
-│
-├── Project-2/
-│   ├── ...
-│
-└── Project-3/
-    ├── ...
-```
-
----
 
 ## Requirements
 
