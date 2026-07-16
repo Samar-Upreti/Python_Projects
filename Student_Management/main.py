@@ -40,6 +40,7 @@ def delete_student_record():
                 ).upper()
 
                 if user_confirmation == "Y":
+                    print("Successfully Deleted")
                     continue      
 
             data.write(line)      
@@ -57,6 +58,7 @@ def search_info():
     with open("Student_Data.txt", "r") as data:
         for line in data:
             if user_input in line.lower():
+                print("-"*50)
                 print(line.strip())
                 found = True
 
