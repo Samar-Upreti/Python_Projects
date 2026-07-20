@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Report Card Generator</title>
+    <link rel="stylesheet" href="./static/style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Student Report Card Generator</h1>
+
+    <form action="/generate" method="POST">
+
+        <div class="row">
+            <div class="input-box">
+                <label>Student Name</label>
+                <input type="text" name="name" required>
+            </div>
+
+            <div class="input-box">
+                <label>Roll Number</label>
+                <input type="text" name="roll" required>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="input-box">
+                <label>Class</label>
+                <input type="text" name="class" required>
+            </div>
+
+            <div class="input-box">
+                <label>Section</label>
+                <input type="text" name="section" required>
+            </div>
+        </div>
+
+        <h2>Enter Marks</h2>
+
+        <table>
+
+            <tr>
+                <th>Subject</th>
+                <th>Marks (Out of 100)</th>
+            </tr>
+
+            <tr>
+                <td>English</td>
+                <td><input type="number" name="english" min="0" max="100" required></td>
+            </tr>
+
+            <tr>
+                <td>Mathematics</td>
+                <td><input type="number" name="maths" min="0" max="100" required></td>
+            </tr>
+
+            <tr>
+                <td>Science</td>
+                <td><input type="number" name="science" min="0" max="100" required></td>
+            </tr>
+
+            <tr>
+                <td>Social Science</td>
+                <td><input type="number" name="social" min="0" max="100" required></td>
+            </tr>
+
+            <tr>
+                <td>Computer</td>
+                <td><input type="number" name="computer" min="0" max="100" required></td>
+            </tr>
+
+        </table>
+
+        <button type="submit">
+            Generate Report Card
+        </button>
+
+    </form>
+
+</div>
+
+</body>
+</html>
