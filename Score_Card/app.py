@@ -39,7 +39,7 @@ def fatch_data():
 
     #To Handle Data Cleanleeeee...
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-    DATA_FOLDER = os.path.join(BASE_DIR, "Data")   # Capital D
+    DATA_FOLDER = os.path.join(BASE_DIR, "Data")
     os.makedirs(DATA_FOLDER, exist_ok=True)
 
     DATA_FILE = os.path.join(DATA_FOLDER, "Data.csv")
